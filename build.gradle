@@ -5,18 +5,14 @@ plugins {
 
 sourceCompatibility = 1.6
 
-wrapper {
-    gradleVersion = 3.3
-}
-
 repositories {
     jcenter()
 }
 
 dependencies {
-    compile 'it.unisa.di.cluelab:polyrec:0.2.2'
+    implementation 'it.unisa.di.cluelab:polyrec:0.2.2'
 
-    testCompile 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
 }
 
 mainClassName = 'it.unisa.di.cluelab.polyrec.exampleapp.MainFrame'
